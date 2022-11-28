@@ -1,0 +1,83 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="img/favicon.png">
+        <title> HOME | B&F Consultor</title>
+        <link rel="stylesheet"  href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <section class="header" id="header">
+                <div class="logoHeader"><img src="img/logo.png"  width="100px" height="100px" ></div>
+                <nav class="navegadorHeader">
+                    <a href="/">HOME</a>
+                    <a href="/#serv">SERVICIOS</a>
+                    <a href="/#formul">CONTACTO</a>
+                </nav>
+            </section>
+        </header>
+        <main >
+            <section class="bannerPrincipal" id="banner">
+                <h1 class="tituloPrincipal">B & F CONSULTOR</h1>
+                <h2 class="subtitle">Especialista en servicios contables</h2>
+            </section>
+            <section class="servicios" id="serv">
+                <div><h3 class="tituloSection">SERVICIOS</h3></div>
+                <div>
+                    <ul class="serviciosContables">
+                        <li>
+                            <img class="imgServ"src="img/contabilidad.png" width="150" height="150">
+                            <h4 class="subtitleServicios">Contabilidad</h4>
+                        </li>
+                        <li>
+                            <img class="imgServ" src="img/declaracion.png"width="150" height="150">
+                            <h4 class="subtitleServicios">Declaraciones</h4>
+                        </li>
+                        <li>
+                            <img class="imgServ" src="img/impuesto.png"width="150" height="150">
+                            <h4 class="subtitleServicios">Impuestos</h4>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="videoConocenos" id="video">
+                <div>
+                    <h3 class="tituloSection">CONÓCENOS</h3>
+               </div>
+               <div class="contenidoVideo">
+                    <P class="textoVideo">Lideres a nivel nacional en servicios contables,<br> y contamos con el mejor equipo especializado <br> en tributacion y finanzas.</P>
+                    <iframe class="videoYouT" width="380" height="315" src="https://www.youtube.com/embed/_viIJfzsaRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+           </section>
+            <section class="mapaUbicacion" id="map">
+                <h3 class="tituloSection">ESTAMOS UBICADOS</h3>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0489075142737!2d-74.09956048572568!3d4.5852437966688235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98e1003987bd%3A0xc1c38a35fe03bf87!2sUNAD%20Universidad%20Nacional%20Abierta%20y%20a%20Distancia%20-%20Sede%20Jos%C3%A9%20Celestino%20Mutis!5e0!3m2!1ses-419!2sco!4v1662427175454!5m2!1ses-419!2sco"width="75%" height="500" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="formulario" id="formul">
+                <div><h3 class="tituloSection">CONTÁCTANOS</h3></div>
+                <form>
+                    <label class="subt" for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido"class="input-padron" required>
+                    <label class="subt" for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico"class="input-padron" required placeholder="email@dominio.com">
+                    <label class="subt" for="telefono">Telefono</label>
+                    <input type="tel" id="telefono"class="input-padron" required placeholder="(xx) xxx xxxxx">
+                    <label class="subt" for="mensaje">Mensaje</label>
+                    <textarea cols="40" rows="10" id="mensaje" class="input-padron" required></textarea>
+                    <div class="boton"><input  type="submit" value="ENVIAR"></div>
+                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            <img src="img/logo.png" alt="Workplace" usemap="#workmap" width="50px" height="50px" class="imgF">
+            <map name="workmap">
+                 <area shape="rect" coords="0,0,177,250" alt="logo" title=" Ir Arriba | B&F" href="/">
+            </map>
+            <p class="copyright">&copy Copyright BRAYAN STICK FONTECHA. 2022</p>
+        </footer>
+    </body>
+</html>

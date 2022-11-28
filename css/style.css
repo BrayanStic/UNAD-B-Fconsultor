@@ -1,0 +1,317 @@
+.header{
+    align-items: center;
+    background-color: #f8f5f2;
+}
+.logoHeader{
+    text-align: center;
+} 
+.navegadorHeader{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+    
+.navegadorHeader a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: #232323;
+}
+
+.navegadorHeader a:hover{
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+@media all and (min-width: 761px) and (max-width:1024px){
+    .header{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        background-color: #f8f5f2;
+    }
+    
+    .logoHeader{
+        width: 40%;
+        padding-left: 2%;
+    }
+    .navegadorHeader{
+        width: 60%;
+        padding: 0 5% 0 20%;
+    }
+    
+}
+
+@media all and (min-width: 1025px){
+    .header{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        background-color: #f8f5f2;
+    }
+    
+    .logoHeader{
+        width: 50%;
+        padding-left: 50px;
+    }
+    .navegadorHeader{
+        width: 50%;
+        padding: 0 5% 0 35%;
+    }
+ 
+}
+
+.bannerPrincipal{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg");
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPrincipal{
+    font-size: 50px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-family: 'Abyssinica SIL', serif;
+    color: white;
+    align-items: center;
+}
+@media all and (min-width: 761px) and (max-width:1024px) {
+    .tituloPrincipal{
+        font-size: 70px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .subtitle{
+        font-size: 35px;
+    }
+}
+
+@media all and (min-width: 1025px){
+    .tituloPrincipal{
+        font-size: 80px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .tituloPrincipal:hover{
+        font-size: 100px;
+    }
+    .subtitle{
+        font-size: 40px;
+    }
+}
+.servicios{
+    background-color: #fffffe;
+    padding-bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.tituloSection{
+    font-size: 35px;
+    text-align: center;
+    padding: 150px 0 80px 0;
+}
+
+.serviciosContables li{
+    font-weight:500;
+    font-style: italic;
+    padding: 20px;
+    background-color:#f8f5f2;
+    border-radius: 70px;
+    margin: 35px 90px;
+}
+
+.serviciosContables li:hover{
+    border:solid;
+    border-color: #feefe8;
+    border-width: 5px;
+}
+
+.subtitleServicios{
+    font-size: 25px;
+    padding-top: 15px;
+    font-family: 'Abyssinica SIL';
+}
+@media all and (min-width: 761px) and (max-width:1024px){
+    .serviciosContables{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .serviciosContables li{
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        font-weight:400;
+        padding: 100px 70px;
+    }
+    
+    .imgServ{
+        width: 200px;
+        height: 200px;
+    }
+    .imgServ:hover{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+@media all and (min-width: 1025px){
+    .serviciosContables{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .serviciosContables li{
+        align-items: center;
+        text-align: center;
+        font-weight:400;
+        padding: 100px 70px;
+        
+    }
+     
+}
+.videoConocenos{
+    background-color: #f8f5f2;
+}
+
+.contenidoVideo{
+    text-align: center;
+}
+
+.contenidoVideo p{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.textoVideo{
+    padding: 0 5%;
+}
+
+iframe{
+    border-radius: 15px;
+    border-bottom:solid;
+    border-right:solid;
+}
+
+@media all and (min-width: 761px) and (max-width:1024px){
+    .videoYouT{
+        width: 560px;
+        height: 315px;
+    }
+}
+@media all and (min-width: 1025px){
+    .contenidoVideo{
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+    
+    .contenidoVideo p{
+        font-size: 20px;
+    }
+    .videoYouT{
+        width: 560px;
+        height: 315px;
+    }
+}
+.mapaUbicacion{
+    padding-bottom: 150px;
+    background-color: #f8f5f2;
+}
+
+.map{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-radius: 15px;
+    margin: 0 10% 10%;
+}
+@media all and (min-width: 480px){
+    form{
+        margin: 0 20% 10%;  
+    }
+}
+form input{
+    background-color: #f8f5f2;
+    width: 90%;
+    margin: 0 10px;
+}
+
+form input:hover{
+    border-color: #feefe8;
+}
+
+
+form textarea{
+    background-color: #f8f5f2;
+    width: 90%;
+}
+
+form textarea:hover{
+    border-color:  #feefe8;
+}
+.subt{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Abyssinica SIL';
+}
+
+.boton{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.boton input{
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    padding: 7px 5px;
+    border-radius: 10px;
+}
+.boton input:hover{
+    background-color: red;
+    border-color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f5f2;
+    border-top: black;
+    border-width: 2px;
+}
+.copyright{
+    font-size: 12px;
+}
+
